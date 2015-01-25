@@ -13,6 +13,8 @@ public class GoogleTest {
 		driver = new FirefoxDriver();
 		driver.get("http://www.google.com/");
 		Thread.sleep(16000);
+		Sales sales = new Sales();
+		System.out.println("Cost = "+sales.purchase(10, 20));
 		driver.quit();	
 	}
 }
