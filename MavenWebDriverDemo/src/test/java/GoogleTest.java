@@ -13,7 +13,6 @@ public class GoogleTest {
 		driver = new FirefoxDriver();
 		driver.get("http://www.google.com/");
 		Thread.sleep(16000);
-		driver.quit();
-		
+		driver.quit();	
 	}
 }
